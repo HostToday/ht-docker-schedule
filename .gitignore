@@ -1,0 +1,6 @@
+app-node/node_modules/
+app-node/ts/typings/
+app-node/ts/*.js
+app-node/ts/*.js.map
+app-node/docs/
+app-node/coverage/
