@@ -4,6 +4,7 @@
   "description": "schedules unitfiles from a source onto a CoreOS Cluster",
   "main": "dist/index.js",
   "scripts": {
+    "start": "(node dist/index.js)",
     "test": "(npmts)"
   },
   "author": "Lossless GmbH",
@@ -12,6 +13,7 @@
     "npmts": "^5.0.4"
   },
   "dependencies": {
+    "beautylog": "^4.1.2",
     "fs-extra": "^0.28.0",
     "request": "^2.72.0"
   }
